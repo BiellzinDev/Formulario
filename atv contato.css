@@ -1,0 +1,100 @@
+html{
+    text-align: center;
+    background-color: #f9f4f4;
+    font-family: "Helvetica neue";
+}
+
+body{
+    background-color: rgba(104, 101, 101, 0.9);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    margin: 0 auto;
+}
+
+form{
+    margin:auto;
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 35em;
+    box-sizing: border-box;
+    background-color: #1e1f1f;
+    padding: 1em;
+    border-radius: 1rem;
+    
+   
+
+}
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+label,input,textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 1rem;
+}
+
+textarea{
+    background-color: rgba(0, 0, 0, .3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb ;
+    color: white;
+    outline: 0;
+}
+
+input{
+    height: 80px;
+    background-color: rgba(0, 0, 0, .3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb ;
+    color: white;
+    padding: 0.75em;
+    margin: 0.5em 0 2.5em;
+    outline: 0;
+}
+
+
+h1{
+    font-size: 1.3em;
+    color: #8e999a;
+    font-weight: bold;
+    padding: .5em;
+}
+
+div{
+    text-align: left;
+}
+
+.lock{
+    text-align: right;
+    margin-top: 2em;
+}
+
+.btn{
+    background-color: #2a2a27;
+    color: white;
+    border-radius: 5px;
+    padding: .7em;
+    cursor: pointer;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    border-bottom: 2px solid #8e999a;
+    background-color: #2a2a27;
+}
+
+input:invalid:focus,textarea:invalid:focus{
+    border-bottom: 2px solid red;
+}
+
+input:valid:focus,textarea:valid:focus{
+    border-bottom: 2px solid green;
+}

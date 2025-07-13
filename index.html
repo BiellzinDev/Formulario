@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contato</title>
+
+    <link rel="stylesheet" href="atv contato.css">
+</head>
+<body>
+
+    <form autocomplete="off">
+        <fieldset>
+            <h1>Formulario de Contato</h1>
+
+            <div class="nome">
+                <label for="name">Nome</label>
+                <input type="text" required class="name" id="name">
+            </div>
+
+            <div class="em">
+                <label for="emai">Email</label>
+                <input type="email" required id="emai">
+            </div>
+
+            <div class="assunto">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto">
+            </div>
+
+            <div class="mensagem">
+                <label>Mensagem</label>
+                <textarea name="mensagem" maxlength="1000" rows="7" minlength="20" id="" required></textarea>
+            </div>
+
+            <div class="lock"><button class="btn">enviar</button></div>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
