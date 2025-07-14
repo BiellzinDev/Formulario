@@ -1,4 +1,4 @@
-# 🚀 Formulário
+# 🚀 Formulário de Cadastro
 
 Repositório criado durante o curso de **Desenvolvimento Web**, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML e CSS.
 
